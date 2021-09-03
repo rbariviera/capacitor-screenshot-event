@@ -1,5 +1,5 @@
 {
-  "name": "@rdlabo/capacitor-screenshot-event",
+  "name": "@rbariviera/capacitor-screenshot-event",
   "version": "3.0.0",
   "description": "Notification that user shot screenshot",
   "main": "dist/plugin.cjs.js",
@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rdlabo-team/capacitor-screenshot-event.git"
+    "url": "git+https://github.com/rbariviera/capacitor-screenshot-event.git"
   },
   "bugs": {
-    "url": "https://github.com/rdlabo-team/capacitor-screenshot-event/issues"
+    "url": "https://github.com/rbariviera/capacitor-screenshot-event/issues"
   },
   "keywords": [
     "capacitor",
