@@ -1,4 +1,4 @@
-import type {PluginListenerHandle} from '@capacitor/core';
+import type { PluginListenerHandle } from '@capacitor/core';
 
 export interface ScreenshotEventPlugin {
   startWatchEvent(): Promise<void>;
@@ -6,6 +6,6 @@ export interface ScreenshotEventPlugin {
 
   addListener(
     eventName: 'userDidTakeScreenshot',
-    listenerFunc: () => void,
+    listenerFunc: (data: any) => void,
   ): PluginListenerHandle;
 }

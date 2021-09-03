@@ -1,11 +1,11 @@
-# @rdlabo/capacitor-screenshot-event
+# @rbariviera/capacitor-screenshot-event
 
-Notification that user shot screenshot
+Capacitor 3 plugin - Notification that user shot screenshot iOS and Android
 
 ## Install
 
 ```bash
-npm install @rdlabo/capacitor-screenshot-event
+npm install @rbariviera/capacitor-screenshot-event
 npx cap sync
 ```
 
@@ -13,10 +13,10 @@ npx cap sync
 
 <docgen-index>
 
-* [`startWatchEvent()`](#startwatchevent)
-* [`removeWatchEvent()`](#removewatchevent)
-* [`addListener(...)`](#addlistener)
-* [Interfaces](#interfaces)
+- [`startWatchEvent()`](#startwatchevent)
+- [`removeWatchEvent()`](#removewatchevent)
+- [`addListener(...)`](#addlistener)
+- [Interfaces](#interfaces)
 
 </docgen-index>
 
@@ -29,8 +29,7 @@ npx cap sync
 startWatchEvent() => Promise<void>
 ```
 
---------------------
-
+---
 
 ### removeWatchEvent()
 
@@ -38,13 +37,12 @@ startWatchEvent() => Promise<void>
 removeWatchEvent() => Promise<void>
 ```
 
---------------------
-
+---
 
 ### addListener(...)
 
 ```typescript
-addListener(eventName: 'userDidTakeScreenshot', listenerFunc: () => void) => PluginListenerHandle
+addListener(eventName: 'userDidTakeScreenshot', listenerFunc: (data) => void) => PluginListenerHandle
 ```
 
 | Param              | Type                                 |
@@ -54,11 +52,9 @@ addListener(eventName: 'userDidTakeScreenshot', listenerFunc: () => void) => Plu
 
 **Returns:** <code><a href="#pluginlistenerhandle">PluginListenerHandle</a></code>
 
---------------------
-
+---
 
 ### Interfaces
-
 
 #### PluginListenerHandle
 
@@ -67,3 +63,5 @@ addListener(eventName: 'userDidTakeScreenshot', listenerFunc: () => void) => Plu
 | **`remove`** | <code>() =&gt; Promise&lt;void&gt;</code> |
 
 </docgen-api>
+
+#### Forked from @rdlabo/capacitor-screenshot-event
